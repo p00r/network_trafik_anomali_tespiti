@@ -1,0 +1,14 @@
+import pickle
+
+with open('neelaryan_multimodal-sentiment-analysis/moud_data.pkl', 'rb') as ilgili_dosya:
+    content = pickle.load(ilgili_dosya)
+
+iemocap = pickle.load()
+
+
+# Create a variable
+myvar = [{'This': 'is', 'Example': 2}, 'of',
+         'serialisation', ['using', 'pickle']]
+
+with open('veriAkislar-22-3.pkl', 'wb') as file:
+    pickle.dump(veriAkislar, file)
